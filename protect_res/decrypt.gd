@@ -43,16 +43,18 @@ func import(source_file, save_path, options, r_platform_variants, r_gen_files):
 	var data  = file.get_buffer(file.get_len());
 	data.invert();
 	
-
 	file.close()
-
+	
 	var img = Image.new();
-	print(img.load_png_from_buffer(PoolByteArray(data)))
-	#img.crop(img.get_width(), img.get_height());
+	
+	if(img.load_png_from_buffer(data) == OK):
+		print("ProtectRes: import " + source_file.get_file() + " -> OK")
+	
 	var t = ImageTexture.new();
+	
+	t.set_data(img);
 	t.create_from_image(img);
 	
 	
 	
-
 	return ResourceSaver.save("%s.%s" % [save_path, get_save_extension()], t)

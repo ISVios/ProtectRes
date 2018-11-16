@@ -153,6 +153,7 @@ func _crypt(path, this, crypt):
 		dir.copy(path, "res://.protectres" + path.replace("res:/", ""));
 		
 		dir.remove(path);
+		dir.remove(path+".import");
 		
 	else:
 		
@@ -162,6 +163,7 @@ func _crypt(path, this, crypt):
 		var dir = Directory.new();
 		dir.copy("res://.protectres" + path.get_basename().replace("res:/", "")+".png", path.get_basename() + ".png");
 		dir.remove(path);
+		dir.remove(path+".import");
 		
 	
 	var engine = get_tree().get_nodes_in_group("IS.ProtectRes")[0];
