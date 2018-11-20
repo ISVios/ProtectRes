@@ -86,6 +86,15 @@ func thr_scan(vars):
 		
 		var file = dir.get_next();
 		
+		
+		#ignore .file
+		if(file.begins_with(".")):
+			continue;
+		
+		#ignore addons folder 
+		if(file.find("addons") != -1):
+			continue;
+		
 		if(file == ""):
 			break;
 		
@@ -125,6 +134,7 @@ func thr_scan(vars):
 
 func _crypt(path, this, crypt):
 	
+	# add change in script
 	if(crypt):
 		var in_file = File.new();
 		var out_file = File.new();
@@ -177,5 +187,4 @@ func _exit_tree():
 	
 	$HBoxContainer/VBoxContainer/btn_scan_png.disconnect("pressed", self, "_scan");
 	$HBoxContainer/VBoxContainer/btn_scan_gnp.disconnect("pressed", self, "_scan");
-	#$VBoxContainer/btn_crypt.disconnect("pressed", self, "_crypt");
 	$HBoxContainer/VBoxContainer/btn_crypt_current.disconnect("pressed", self, "_current_crypt");
