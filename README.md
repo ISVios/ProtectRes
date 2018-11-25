@@ -2,7 +2,7 @@
 image protection something Dragon UnPACKer or Ravioli game tool
 
 
-*Не Забудьте добавить ".gnp" в проект*
+*Не Забудьте добавить ".gnp" в проект.(Фильтр для экспорта не ресурсных файлов)*
 
 *Do not forget to add ".gnp" to the project*
 
