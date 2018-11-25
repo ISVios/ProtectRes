@@ -35,4 +35,8 @@ image protection something Dragon UnPACKer or Ravioli game tool
 
 ![alt-text](https://pp.userapi.com/c850032/v850032896/c7951/DSgGvijAx-U.jpg "взлом")
 
+![alt-text](https://pp.userapi.com/c844321/v844321561/140b7a/l9yfF1GgHcc.jpg "защита")
+
+![alt-text](https://pp.userapi.com/c844321/v844321561/140b84/oSHHsCf0gQc.jpg "экспорт")
+
 ![alt-text](https://pp.userapi.com/c850032/v850032896/c795f/j5U0s_BpBJ8.jpg "взлом с protectres")
