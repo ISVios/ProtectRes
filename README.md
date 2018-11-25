@@ -26,3 +26,13 @@ image protection something Dragon UnPACKer or Ravioli game tool
 **Оригинальные файлы не удаляются,а копируются в папку .protectres, но в экспорте не участвуют.**
 
 **к сожалению пока нет автоматической замены картинки в скриптах/ресурсах.**
+
+
+Пример:
+
+
+[logo] https://pp.userapi.com/c850032/v850032896/c7947/Oqp2u_3I3kQ.jpg "пример"
+
+[logo] https://pp.userapi.com/c850032/v850032896/c7951/DSgGvijAx-U.jpg "взлом"
+
+[logo] https://pp.userapi.com/c850032/v850032896/c795f/j5U0s_BpBJ8.jpg "взлом с protectres"
