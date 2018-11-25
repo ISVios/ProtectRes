@@ -20,6 +20,7 @@ image protection something Dragon UnPACKer or Ravioli game tool
 4) нажимаем на название картинки , которую хотим скрыть.
 
 Дешифровать:
+
 2) в нижней панели ProtectRes нажимаем Scan gnp (отобразятся все gnp в пректе) 
 4) нажимаем на название картинки , которую хотим вернуть.
 
