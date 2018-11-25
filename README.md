@@ -31,8 +31,8 @@ image protection something Dragon UnPACKer or Ravioli game tool
 Пример:
 
 
-[logo] https://pp.userapi.com/c850032/v850032896/c7947/Oqp2u_3I3kQ.jpg "пример"
+![alt-text](https://pp.userapi.com/c850032/v850032896/c7947/Oqp2u_3I3kQ.jpg "пример")
 
-[logo] https://pp.userapi.com/c850032/v850032896/c7951/DSgGvijAx-U.jpg "взлом"
+![alt-text](https://pp.userapi.com/c850032/v850032896/c7951/DSgGvijAx-U.jpg "взлом")
 
-[logo] https://pp.userapi.com/c850032/v850032896/c795f/j5U0s_BpBJ8.jpg "взлом с protectres"
+![alt-text](https://pp.userapi.com/c850032/v850032896/c795f/j5U0s_BpBJ8.jpg "взлом с protectres")
